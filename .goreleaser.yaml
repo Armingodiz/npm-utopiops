@@ -1,8 +1,5 @@
 
 before:
-  hooks:
-    - make setup
-    - go generate ./...
 project_name: utopiops
 builds:
   - id: utopiops-darwin-amd64
